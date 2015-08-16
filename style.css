@@ -1,0 +1,48 @@
+td {
+    width: 30px;
+    height: 30px;
+}
+
+td.hidden {
+    background: gray;
+}
+
+td.mine {
+    background: red;
+    background-image: url('images/mine-icon.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+td.number {
+    background: LightGray;
+    font-weight: bold;
+    text-align: center;
+}
+
+td.flagged {
+    background: gray;
+    background-image: url('images/flag-icon.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+td.one_mine {
+    color: black;
+}
+
+td.two_mines {
+    color: green;
+}
+
+td.three_mines {
+    color: red;
+}
+
+td.four_mines {
+    color: blue;
+}
+
+td.five_plus_mines {
+    color: gold;
+}
